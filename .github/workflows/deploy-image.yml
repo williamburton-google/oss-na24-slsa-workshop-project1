@@ -14,7 +14,7 @@ on:
       policy-id:
         description: "Policy ID for the service account we want to deploy on."
         type: string
-        default: "servers-staging.json"
+        default: "servers-prod.json"
       environment:
         type: choice
         description: Environment to use
